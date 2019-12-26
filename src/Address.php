@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\CepGratis;
+namespace gleisonnanet\CepGratis;
 
 class Address
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace JansenFelipe\CepGratis\Providers;
+namespace gleisonnanet\CepGratis\Providers;
 
-use JansenFelipe\CepGratis\Address;
-use JansenFelipe\CepGratis\Contracts\HttpClientContract;
-use JansenFelipe\CepGratis\Contracts\ProviderContract;
+use gleisonnanet\CepGratis\Address;
+use gleisonnanet\CepGratis\Contracts\HttpClientContract;
+use gleisonnanet\CepGratis\Contracts\ProviderContract;
 use Symfony\Component\DomCrawler\Crawler;
 
 class CorreiosProvider implements ProviderContract

@@ -1,14 +1,14 @@
 <?php
 
-namespace JansenFelipe\CepGratis;
+namespace gleisonnanet\CepGratis;
 
-use JansenFelipe\CepGratis\Clients\CurlHttpClient;
-use JansenFelipe\CepGratis\Contracts\HttpClientContract;
-use JansenFelipe\CepGratis\Contracts\ProviderContract;
-use JansenFelipe\CepGratis\Exceptions\CepGratisInvalidParameterException;
-use JansenFelipe\CepGratis\Exceptions\CepGratisTimeoutException;
-use JansenFelipe\CepGratis\Providers\CorreiosProvider;
-use JansenFelipe\CepGratis\Providers\ViaCepProvider;
+use gleisonnanet\CepGratis\Clients\CurlHttpClient;
+use gleisonnanet\CepGratis\Contracts\HttpClientContract;
+use gleisonnanet\CepGratis\Contracts\ProviderContract;
+use gleisonnanet\CepGratis\Exceptions\CepGratisInvalidParameterException;
+use gleisonnanet\CepGratis\Exceptions\CepGratisTimeoutException;
+use gleisonnanet\CepGratis\Providers\CorreiosProvider;
+use gleisonnanet\CepGratis\Providers\ViaCepProvider;
 
 /**
  * Class to query CEP.

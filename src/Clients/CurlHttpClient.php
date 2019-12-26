@@ -1,8 +1,8 @@
 <?php
 
-namespace JansenFelipe\CepGratis\Clients;
+namespace gleisonnanet\CepGratis\Clients;
 
-use JansenFelipe\CepGratis\Contracts\HttpClientContract;
+use gleisonnanet\CepGratis\Contracts\HttpClientContract;
 
 class CurlHttpClient implements HttpClientContract
 {

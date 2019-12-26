@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\CepGratis\Contracts;
+namespace gleisonnanet\CepGratis\Contracts;
 
 interface HttpClientContract
 {

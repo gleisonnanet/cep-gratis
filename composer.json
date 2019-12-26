@@ -1,23 +1,23 @@
 {
-    "name": "jansenfelipe/cep-gratis",
+    "name": "gleisonnanet/cep-gratis",
     "description": "Com esse pacote você poderá realizar consultas de CEP gratuitamente.",
     "keywords": ["cep", "correios", "php"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jansen Felipe",
-            "email": "jansen.felipe@gmail.com"
+            "name": "Gleison de souza luiz",
+            "email": "gleisonnanet@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": "^7.0",
         "symfony/dom-crawler": "^3.2",
         "symfony/css-selector": "^3.2"
     },
     "autoload": {
         "psr-4": {
-            "JansenFelipe\\CepGratis\\": "src/",
-            "JansenFelipe\\CepGratis\\Tests\\": "tests/src/"
+            "gleisonnanet\\CepGratis\\": "src/",
+            "gleisonnanet\\CepGratis\\Tests\\": "tests/src/"
         }
     },
     "require-dev": {
@@ -29,8 +29,8 @@
         }
     },
     "suggest": {
-        "jansenfelipe/cnpj-gratis": "Permite consulta de CNPJ no site da receita",
-        "jansenfelipe/cpf-gratis": "Permite consulta de CPF no site da receita"
+        "gleisonnanet/cnpj-gratis": "Permite consulta de CNPJ no site da receita",
+        "gleisonnanet/cpf-gratis": "Permite consulta de CPF no site da receita"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

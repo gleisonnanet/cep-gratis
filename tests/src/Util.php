@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\CepGratis\Tests;
+namespace gleisonnanet\CepGratis\Tests;
 
 class Util
 {

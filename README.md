@@ -1,9 +1,9 @@
 # CEP Grátis
-[![Travis](https://api.travis-ci.org/jansenfelipe/cep-gratis.svg?branch=4.0)](https://travis-ci.org/jansenfelipe/cep-gratis)
+[![Travis](https://api.travis-ci.org/gleisonnanet/cep-gratis.svg?branch=4.0)](https://travis-ci.org/gleisonnanet/cep-gratis)
 [![StyleCI](https://styleci.io/repos/24848930/shield?branch=4.0)](https://styleci.io/repos/24848930?branch=4.0)
-[![Latest Stable Version](https://poser.pugx.org/jansenfelipe/cep-gratis/v/stable.svg)](https://packagist.org/packages/jansenfelipe/cep-gratis) 
-[![Total Downloads](https://poser.pugx.org/jansenfelipe/cep-gratis/downloads.svg)](https://packagist.org/packages/jansenfelipe/cep-gratis) 
-[![MIT license](https://poser.pugx.org/jansenfelipe/nfephp-serialize/license.svg)](http://opensource.org/licenses/MIT)
+[![Latest Stable Version](https://poser.pugx.org/gleisonnanet/cep-gratis/v/stable.svg)](https://packagist.org/packages/gleisonnanet/cep-gratis) 
+[![Total Downloads](https://poser.pugx.org/gleisonnanet/cep-gratis/downloads.svg)](https://packagist.org/packages/gleisonnanet/cep-gratis) 
+[![MIT license](https://poser.pugx.org/gleisonnanet/nfephp-serialize/license.svg)](http://opensource.org/licenses/MIT)
 
 Com esse pacote você poderá realizar consultas de CEP gratuitamente.
 
@@ -28,7 +28,7 @@ A library irá retornar para você a resposta mais rápida, aumentando assim a p
 Adicione a library
 
 ```shell
-$ composer require jansenfelipe/cep-gratis
+$ composer require gleisonnanet/cep-gratis
 ```
     
 Adicione o autoload.php do composer no seu arquivo PHP.
@@ -40,17 +40,17 @@ require_once 'vendor/autoload.php';
 Agora basta chamar o método `CepGratis::search($cep)`
 
 ```php
-use JansenFelipe\CepGratis\CepGratis;
+use gleisonnanet\CepGratis\CepGratis;
 
 $address = CepGratis::search('31030080'); 
 ```
 
 ### Gostou? Conheça também
 
-* [CnpjGratis](https://github.com/jansenfelipe/cnpj-gratis)
-* [CpfGratis](https://github.com/jansenfelipe/cpf-gratis)
-* [CidadesGratis](https://github.com/jansenfelipe/cidades-gratis)
-* [NFePHPSerialize](https://github.com/jansenfelipe/nfephp-serialize)
+* [CnpjGratis](https://github.com/gleisonnanet/cnpj-gratis)
+* [CpfGratis](https://github.com/gleisonnanet/cpf-gratis)
+* [CidadesGratis](https://github.com/gleisonnanet/cidades-gratis)
+* [NFePHPSerialize](https://github.com/gleisonnanet/nfephp-serialize)
 
 ### License
 
